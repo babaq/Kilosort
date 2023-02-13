@@ -5,7 +5,19 @@ For older versions, please see Github releases:
 * [Kilosort 2.5](https://github.com/MouseLand/Kilosort/releases/tag/v2.5) on Jan 30, 2021.
 * [Kilosort 2.0](https://github.com/MouseLand/Kilosort/releases/tag/v2.0) on Oct 28, 2020.
 
+## Citation requirement
+
+If you use any version of Kilosort, please cite the new Kilosort paper: 
+
+**Pachitariu, M., Sridhar, S., & Stringer, C. (2023). Solving the spike sorting problem with Kilosort. bioRxiv, 2023-01.**
+
+If you use **Kilosort 2.5**, please also cite:   
+
+Steinmetz, N. A., Aydin, C., Lebedeva, A., Okun, M., Pachitariu, M., Bauza, M., ... & Harris, T. D. (2021). Neuropixels 2.0: A miniaturized high-density probe for stable, long-term brain recordings. Science, 372(6539), eabf4588.
+
 ![](Docs/img/frame_full.png)
+
+## General description
 
 Welcome to Kilosort3, a MATLAB package for spike sorting electrophysiological data up to 1024 channels. In many cases, and especially for Neuropixels probes, the automated output of Kilosort3 requires minimal manual curation. The main change from v2.5 is a completely new and much more sophisticated clustering algorithm, which we will document soon. To learn about Kilosort2.5, the primary reference is the Neuropixels 2.0 [paper](https://www.biorxiv.org/content/10.1101/2020.10.27.358291v1). The Github wiki still refers to Kilosort2, and it will be updated. 
 
